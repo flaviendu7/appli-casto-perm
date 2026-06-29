@@ -1,5 +1,5 @@
 module.exports = {
   plugins: {
-    '@tailwindcss/postcss': {},
+    "tailwindcss":"3.4.17": {},
   },
 }
