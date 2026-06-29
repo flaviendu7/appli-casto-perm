@@ -1,3 +1,0 @@
-import Link from 'next/link'
-import { ShieldCheck } from 'lucide-react'
-export default function AppShell({children}:{children:React.ReactNode}){return <div><header className="bg-white border-b px-6 py-4 flex justify-between items-center"><Link href="/dashboard" className="flex gap-3 items-center font-extrabold text-[#0050a4]"><ShieldCheck/> Consignes Permanentes Castorama Claye-Souilly</Link><nav className="flex gap-4 text-sm"><Link href="/dashboard">Tableau de bord</Link><Link href="/consignes">Consignes</Link><Link href="/admin/users">Admin</Link></nav></header><main className="max-w-6xl mx-auto p-6">{children}</main></div>}
